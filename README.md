@@ -1,5 +1,8 @@
 # Jitsu Web 💜👀📝
-My personal web made with HTML and CSS no JS 👀
+This is my personal web, Its JS Free that means no Java Script. I got inspired by [DarkCode's](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw) video on his youtube channel called [Profile Card](https://www.youtube.com/watch?v=yECsm5B2_Hg).
+
+The ring around the picture has a simple css animation and I think it looks nice, you can also find my old web here in the [/old](https://github.com/Jitsuzai/jitsuweb/tree/main/old) directory
+This website is hosted over at [jitsuzai.eu](https://www.jitsuzai.eu/)
 
 ## Web preview
 ### New Main page
