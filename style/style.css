@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif, 'Noto Sans JP';
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color: #24262b;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilecard{
+    width: 420px;
+    text-align: center;
+    border: 8px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.card-header{
+    background: #2e3440;
+    padding: 60px 40px;
+}
+
+.pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #A3BE8C, #88C0D0);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+}
+
+.pic img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.desc{
+    font-size: 18px;
+    color: #a3be8c;
+}
+
+.linky{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linky a{
+    color: #f2f2f2;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+}
+
+.linky a:hover{
+    color: #a3be8c;
+}
+
+.contact{
+    display: inline-block;
+}
+
+.contact a{
+    padding: 12px 50px;
+    border: 2px solid #a3be8c;
+    color: #a3be8c;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+    line-height: 50px;
+}
+
+.contact a:hover{
+    background: #a3be8c;
+    color: #f2f2f2;
+}
+
+.card-footer{
+    background: #e5ece4;
+    padding: 60px 10px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:#59606d;
+    /*color:#a3be8c;*/
+}
+
+.item span{
+    display: block;
+    color: #2e3440;
+    font-size: 30px;
+}
+
+/*.op{
+    color:#2e3440;
+    padding: 6px 10px;
+    border: 2px solid #2e3440;
+    border-radius: 10px;
+    transition: .3s linear;
+}
+
+.op:hover{
+    background: #2e3440;
+    color: #a3be8c;
+}*/
+
+.border{
+    color: #bbb;
+    background: #2e3440;
+}
+
+.jitsik{
+    color: #a3be8c;
+}
+
+.jitsik:hover{
+    color: #88C0D0;
+}
+
+.contact-card-head{
+    width: 420px;
+    border: 8px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.contact-card{
+    background: #2e3440;
+    padding: 60px 40px;
+    color: #F4F4F4;
+}
+
+.contact-card img{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #A3BE8C, #88C0D0);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contact-card h1{
+    line-height: 50px;
+}
+
+.contact-card a{
+    color:#f2f2f2;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 5px;
+}
+
+.discord{
+    color:#f2f2f2;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 5px;
+}
+
+.contact-card a:hover{
+    color:#a3be8c;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 5px;
+}
+
+.betternav{
+    display: inline-block;
+}
+
+.betternav a{
+    font-size: 16px;
+    color: #a3be8c;
+    padding: 12px 50px;
+    border: 2px solid #a3be8c;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+    line-height: 60px;
+}
+
+.betternav a:hover{
+    background: #a3be8c;
+    color: #f2f2f2;
+    padding: 12px 50px;
+    line-height: 60px;
+    font-size: 16px;
+}
+
+.contact-footer{
+    background: #e5ece4;
+    padding: 60px 10px;
+}
+
+.aboutme-head{
+    background-color: #2e3440;
+    width: 720px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.aboutme{
+    color: #F4F4F4;
+    height: 350px;
+    padding: 60px 40px;
+}
+
+.aboutme img{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #A3BE8C, #88C0D0);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.aboutme h1{
+    line-height: 60px;
+}
+
+.aboutme a{
+    color: #a3be8c;
+}

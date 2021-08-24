@@ -1,0 +1,179 @@
+body{
+    background-color: #2e3440;
+    color: azure;
+    font-family: 'Noto Sans';
+    margin: 0;
+}
+
+.linky{
+    position: fixed;
+    top: -16px;
+    right: 40px;
+}
+
+.linky li{
+    list-style-type: none;
+    background-color: #2e3440;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.linky li:hover{
+    list-style-type: none;
+    background-color: #272c36;
+}
+
+.linky img{
+    height: 30px;
+}
+
+.navbar{
+    position:fixed;
+    top: -16px;
+    left: 40px;
+}
+
+.navbar li{
+    list-style-type:none;
+    background-color: #2e3440;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+
+.navbar li:hover{
+    list-style-type: none;
+    background-color: #272c36;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+
+.navbar li a{
+    color: #8fbcbb;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: #88c0d0;
+    text-decoration: none;
+}
+
+.showcase{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    padding: 50px;
+    background-color: #333846;
+}
+
+.projects ul{
+    list-style-type: none;
+    display: ruby;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.projects ul li:hover{
+    background-color: #272c36;
+    transition-duration: 200ms;
+    transform: translateY(-20px);
+}
+
+.jitsucore{
+    color:#bf616a;
+}
+
+.jitsuweb{
+    color:#8fbcbb;
+}
+
+.beegames{
+    color:#ebcb8b;
+}
+
+.projects ul li a{
+    text-decoration: none;
+}
+
+.sorry{
+    padding: 50px 15px;
+}
+
+.aboutme_terminal{
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 2%;
+    width: 95%;
+    padding: 10px;
+}
+
+.aboutme_terminal #username{
+    color: lime;
+    display: inline;
+}
+
+.aboutme_terminal #shell{
+    display: inline;
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
+
+.aboutme_terminal #text{
+    display: unset;
+}
+
+.jitsik{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 600px;
+  width: auto;
+}
+
+.contact{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    padding: 50px;
+    background-color: #333846;
+}
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background:rgb(0,0,0,0.5);
+    text-align: start;
+}
+
+footer p{
+    padding: 0px 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #8fbcbb;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #a3be8c;
+}
+
+a{
+    color: #8fbcbb;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#a3be8c;
+    text-decoration: none;
+}
