@@ -1,0 +1,130 @@
+:root {
+    --background: #1D1D1D;
+    --blue: #1C71D8;
+    --teal: #2190A4;
+    --green: #1F7F56;
+    --yellow: #C88800;
+    --orange: #ED5B00;
+    --red: #E62D42;
+    --pink: #D56199;
+    --purple: #9141AC;
+    --gray: #6F8396;
+
+    font-family: Tahoma, sans-serif;
+  }
+
+
+body{
+    background-color: var(--background);
+}
+
+a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    padding-top: 1em;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.title{
+    color: transparent;
+    background-image: linear-gradient(-45deg, var(--blue), var(--teal), var(--green), var(--gray));
+    background-clip: text;
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.links{
+    display: grid;
+    justify-items: center;
+    row-gap: 6px;
+}
+
+.button{
+    padding: 10px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    border-style: solid;
+    border-color: var(--blue);
+}
+
+@keyframes hover-anim{
+    0%{
+        background-color: var(--blue);
+        color: white;
+    }
+
+    100%{
+        background-color: var(--background);
+        color: var(--blue);
+        border-style: solid;
+        border-color: var(--blue);
+        color: var(--blue);
+    }
+}
+
+.button:hover{
+    animation: hover-anim 0.5s linear forwards;
+    /* background-color: var(--background);
+    border-style: solid;
+    border-color: var(--blue);
+    color: var(--blue); */
+}
+
+@keyframes hover-anim-dis{
+    0%{
+        background-color: var(--blue);
+        color: white;
+    }
+
+    100%{
+        background-color: var(--background);
+        color: var(--gray);
+        background-color: var(--background);
+        border-style: solid;
+        border-color: var(--gray);
+        color: var(--gray);
+    }
+}
+
+.dis{
+    padding: 10px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    border-style: solid;
+    border-color: var(--blue);
+}
+
+.dis:hover{
+    animation: hover-anim-dis 0.5s linear forwards;
+}
