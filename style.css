@@ -1,5 +1,3 @@
-/* CSS from https://www.w3schools.com/howto/howto_js_copy_clipboard.asp */
-
 .tooltip {
     position: relative;
     display: inline-block;
@@ -38,7 +36,8 @@
     opacity: 1;
 }
 
-/* My css */
+/* ^ css from https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
+My css  under this comment*/
 
 :root {
     --background: #1d1d1d;
