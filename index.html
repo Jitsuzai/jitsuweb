@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="copyFunc.js"></script>
     <title>jitsuzai.eu</title>
+
 </head>
 <body>
     <h1><a href="https://jitsuzai.eu/" class="title">Jitsuzai.eu</a></h1>
     <p class="subtitle">🌀 Here to fill the void 🌀</p>
-   
+
     <div class="links">
         <a href="mailto:vaclav@jitsuzai.eu" class="button"><i class="fa-solid fa-envelope"></i> Email</a>
         <a href="https://bsky.app/profile/jitsuzai.eu" class="button"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
         <a href="https://www.instagram.com/koded_vaclav/" class="button"><i class="fa-brands fa-instagram"></i> Instagram</a>
         <a href="https://uwu.social/@jitsuzai" class="button"><i class="fa-brands fa-mastodon"></i> Mastodon</a>
-        <span class="dis"><i class="fa-brands fa-discord"></i> Wufee</span>
+        <!-- <button class="button" onclick="CopyFunc()"><i class="fa-brands fa-discord"></i> Wufee</button> -->
+        <div class="tooltip">
+        <button onclick="myFunction()" onmouseout="outFunc()" class="dis">
+          <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          <i class="fa-brands fa-discord"></i> Wufee
+          </button>
+        </div>
     </div>
+
+    <footer><span>Made by <a href="https://github.com/Jitsuzai" class="github">Jitsuzai</a> 💙</span></footer>
 </body>
 </html>
