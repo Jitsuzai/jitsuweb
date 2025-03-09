@@ -165,7 +165,7 @@ h1 {
 }
 
 .dis:active {
-    animation: hover-anim 2s linear infinite;
+    animation: hover-anim 0.5s linear infinite;
 }
 
 /* @keyframes dis-anim {
