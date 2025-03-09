@@ -146,6 +146,8 @@ h1 {
     color: var(--blue);
 }
 
+/* dis is a button that i didnt wanted to be styles by the button class */
+
 .dis {
     padding: 10px;
     background-color: var(--blue);
@@ -167,6 +169,8 @@ h1 {
 .dis:active {
     animation: hover-anim 0.5s linear infinite;
 }
+
+/* old animation that turned button gray to show it isnt working */
 
 /* @keyframes dis-anim {
     0% {
